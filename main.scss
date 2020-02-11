@@ -5,6 +5,7 @@
 $body-color: {{ site.body_background_color }};
 
 $header-image: "{{ site.cover_image }}";
+$header-mobile-image: "{{ site.cover_image_mobile }}";
 $device-color: "assets/{{ site.device_color }}.png";
 
 $accent-color: {{ site.link_color }};
@@ -30,7 +31,7 @@ $feature-icons-background-color: {{ site.feature_icons_background_color }};
 $social-icons-foreground-color: {{ site.social_icons_foreground_color }};
 $social-icons-background-color: {{ site.social_icons_background_color }};
 
-@import 
+@import
     "base",
     "layout",
     "github-markdown"
