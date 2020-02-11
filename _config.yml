@@ -42,10 +42,6 @@ features:
     description: Sigue los ascensos de tus amigos. Interactua con ellos.
     fontawesome_icon_name: users
 
-  - title: Explora el mapa
-    description: Encuentra las zonas en el mapa.
-    fontawesome_icon_name: globe-europe
-
   - title: Sigue tu progreso
     description: Mejora día a día
     fontawesome_icon_name: chart-line
