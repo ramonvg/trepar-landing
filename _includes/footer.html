@@ -18,7 +18,17 @@
 					<i class="socialIconTop fab fa-twitter fa-stack-1x"></i>
 				</span>
 			</a>
-		{% endif %}
+    {% endif %}
+
+
+		{% if site.instagram_username %}
+    <a href="https://instagram.com/{{ site.instagram_username }}">
+      <span class="fa-stack fa-1x">
+        <i class="socialIconBack fas fa-circle fa-stack-2x"></i>
+        <i class="socialIconTop fab fa-instagram fa-stack-1x"></i>
+      </span>
+    </a>
+  {% endif %}
 
 		{% if site.github_username %}
 			<a href="https://github.com/{{ site.github_username }}">
@@ -42,9 +52,9 @@
 	<div class="footerLinks">
 		<!-- {% for page in site.pages %}
 			<a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a>
-		{% endfor %} -->
+		{% endfor %}
 		{% if site.presskit_download_link %}
 			<a href="{{ site.presskit_download_link }}">Descargar</a>
-		{% endif %}
+		{% endif %}-->
 	</div>
 </footer>
