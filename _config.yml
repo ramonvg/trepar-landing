@@ -38,7 +38,7 @@ features:
     description: Guarda cada ruta que has ascendido. Elige si la has escalado a vista, flash o redpoint.
     fontawesome_icon_name: check-circle
 
-  - title: Social
+  - title: Interacciona con tus amigos
     description: Sigue los ascensos de tus amigos. Interactua con ellos.
     fontawesome_icon_name: users
 
