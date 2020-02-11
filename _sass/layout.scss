@@ -15,10 +15,10 @@
 
 }
 
-.headerBackground {
-	height: 115px;
-	background-color: rgba($header-color, $header-transparency);
-}
+// .headerBackground {
+// 	height: 115px;
+// 	background-color: rgba($header-color, $header-transparency);
+// }
 
 @media only screen and (max-width: 768px) {
 
@@ -39,10 +39,9 @@
 	padding-left: 15px;
 	padding-right: 15px;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 115px 876px auto auto;
+	grid-template-rows: 876px auto auto;
 	grid-column-gap: 30px;
 	grid-template-areas:
-		"h h h h h h h h h h h h"
 		"p p p p p i i i i i i i"
 		"c c c c c c c c c c c c"
 		"f f f f f f f f f f f f";
@@ -65,9 +64,8 @@
 	.container {
 		grid-column-gap: 0px;
 		grid-template-columns: 1;
-		grid-template-rows: 115px auto auto auto auto;
+		grid-template-rows: auto auto auto auto;
 		grid-template-areas:
-			"h h h h h h h h h h h h"
 			"i i i i i i i i i i i i"
 			"p p p p p p p p p p p p"
 			"c c c c c c c c c c c c"
