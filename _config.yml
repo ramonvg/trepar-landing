@@ -38,13 +38,13 @@ features:
     description: Guarda cada ruta que has ascendido. Elige si la has escalado a vista, flash o redpoint.
     fontawesome_icon_name: check-circle
 
-  - title: Interacciona con tus amigos
+  - title: Interacciona
     description: Sigue los ascensos de tus amigos. Interactua con ellos.
     fontawesome_icon_name: users
 
-  - title: Sigue tu progreso
-    description: Mejora día a día
-    fontawesome_icon_name: chart-line
+  - title: Añade rutas
+    description: Añade rutas a la aplicación para que todos podamos escalarlas.
+    fontawesome_icon_name: hands-helping
 
   - title: Encuentra las direcciones a tu sector
     description: Cada zona y sector tienen sus coordenads GPS para que puedas llegar fácilmente.
