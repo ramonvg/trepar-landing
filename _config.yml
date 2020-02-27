@@ -111,3 +111,13 @@ collections:
 
 # Markdown rendering
 markdown: kramdown
+
+google_analytics: UA-154908198-1
+
+plugins:
+  - jekyll-analytics
+
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA-154908198-1
+    anonymizeIp: false
