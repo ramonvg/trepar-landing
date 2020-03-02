@@ -5,7 +5,14 @@
 	<base target="_blank">
 
 	<title class="pageTitle">{{ site.page_title }}</title>
-	<meta name="description" content="{{ site.app_description }}">
+  <meta name="description" content="{{ site.app_description }}">
+
+  <meta property="og:title" content="{{ site.page_title }}">
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="{{site.app_description}}" />
+  <meta property="og:url" content="https://trepar.app">
+  <meta property="og:image" content="https://app.trepar.app/assets/icon/favicon.png" />
+
 
 	<link rel="shortcut icon" href="{{ site.app_icon }}">
 
